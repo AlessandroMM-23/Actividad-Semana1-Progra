@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad magica de Ranoa</title>
+</head>
+<body>
+
+    <header>
+        <h1>Universidad Magica de ranoa</h1>
+        <nav aria-label="Lista de Navegacion">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#horario">Horario</a></li>
+                <li><a href="#inscripcion">Inscripción</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenidos a Todos!!</h2>
+            <p>
+                La Universidad magica de ranoa ofrece formacion de elite en las artes arcanas y disciplinas de vanguardia
+                , con magos de nivel REY ademas de contar con equipo especializado para magia de invocacion.
+            </p>
+            <p>
+                En este portal podrás consultar el horario del ciclo actual y
+                realizar tu inscripción en línea de manera rápida y segura.
+            </p>
+
+            <figure>
+                <img src="MT.jpg" alt="Hitogami was here">
+                <figcaption>Vista del campus principal de la Universidad</figcaption>
+            </figure>
+        </section>
+
+        <section id="horario">
+            <h2>Horario del Ciclo K426-II</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Curso</th>
+                        <th scope="col">Docente</th>
+                        <th scope="col">Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Magia de Agua</td>
+                        <td>Roxy Migurdia</td>
+                        <td>08:00 - 10:00</td>
+                    </tr>
+                    <tr>
+                        <td>Magia de curacion </td>
+                        <td>Cliff Grimoire</td>
+                        <td>10:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Teoria y Flujo de Mana</td>
+                        <td>Nanahoshi</td>
+                        <td>14:00 - 16:00</td>
+                    </tr>
+                    <tr>
+                        <td>Magia de tierra avanzada</td>
+                        <td>Rudeus Greyrat</td>
+                        <td>16:00 - 18:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="inscripcion">
+            <h2>Formulario de Inscripción</h2>
+            <form>
+
+                <label for="nombres">Nombre: </label>
+                <input type="text" name="nombres" id="nombres" required>
+                <br>
+
+                <label for="correo">Correo Electronico: </label>
+                <input type="email" name="correo" id="correo">
+                <br>
+                <label for="codigo">Codigo: </label>
+                <input type="text" name="codigo" id="codigo" required>
+                <br>
+                <br>
+
+                Seleccionar Camino Arcano:
+                <br>
+                <label for="intereses1">Magia elemental</label>
+                <input type="checkbox" id="intereses1" name="intereses1" value="SE">
+
+                <label for="intereses2">Magia de Apoyo</label>
+                <input type="checkbox" id="intereses2" name="intereses2" value="CS">
+                
+                <label for="intereses3">Magia Medica</label>
+                <input type="checkbox" id="intereses3" name="intereses3" value="AI">
+
+                <label for="intereses4">Teoria e Investigacion Arcana Avanzada</label>
+                <input type="checkbox" id="intereses4" name="intereses4" value="DS">
+                <br>
+
+                Género:
+                <br>
+                <label for="g_masculina">Masculino </label>
+                <input type="radio" id="g_masculina" name="gen" value="M">
+
+                <label for="g_masculina">Femenino </label>
+                <input type="radio" id="g_femenino" name="gen" value="F">
+
+                <label for="g_masculina">Otro</label>
+                <input type="radio" id="g_otro" name="gen" value="O">
+                <br>
+                <br>
+
+               
+                <legend>Turno de preferencia:</legend>
+                    <p>
+                        <input type="radio" id="turno-manana" name="turno" value="manana" required>
+                        <label for="turno-manana">Mañana</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="turno-tarde" name="turno" value="tarde">
+                        <label for="turno-tarde">Tarde</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="turno-noche" name="turno" value="noche">
+                        <label for="turno-noche">Noche</label>
+                    </p>
+               
+
+                <p>
+                    <input type="checkbox" id="acepta" name="acepta" required>
+                    <label for="acepta">Acepto los términos y condiciones</label>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar inscripción</button>
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        <p>k426 Universidad magica de Ranoa. Todos los derechos reservados.</p>
+        <p>Mi sitio web - Alessandro Morales- Actividad3</p>
+    </footer>
+
+</body>
+</html>
